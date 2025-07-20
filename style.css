@@ -1,0 +1,214 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: url("./img/background.png") no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.wrapper {
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 2rem;
+  border-radius: 1rem;
+  width: 100%;
+  max-width: 400px;
+  color: white;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
+}
+
+.wrapper img {
+  display: block;
+  margin: 0 auto;
+  width: 163px;
+}
+
+.wrapper h2 {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 1.8rem;
+ font-weight: 100
+}
+
+.wrapper h3 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-weight: 400;
+  font-size: 0.70rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+form label{
+font-size: 0.8rem;
+  color: #fff;
+  font-weight: 400;
+}
+
+input[type="text"],
+input[type="password"] {
+  padding: 0.75rem 1rem;
+  border: 1px solid #696969;
+  border-radius: 30px;
+  background-color:transparent;
+  color: white;
+  outline: none;
+}
+
+.username-container{
+    position: relative;
+    width: 100%;
+    gap : 1rem;
+}
+
+.username-container input{
+    width : 100%;
+    padding-right : 3rem;
+}
+
+.username-container label + input{
+    margin-top: 5px;
+}
+
+.password-container {
+  position: relative;
+  width: 100%;
+}
+
+.password-container input {
+  width: 100%;
+  padding-right: 3rem; 
+}
+
+.password-container label + input{
+    margin-top: 5px;
+}
+
+.confirmpassword-container {
+  position: relative;
+  width: 100%;
+}
+
+.confirmpassword-container input {
+  width: 100%;
+  padding-right: 3rem; 
+}
+
+.confirmpassword-container label + input{
+    margin-top: 5px;
+}
+
+.eye-icon {
+  position: absolute;
+  top: 65%;
+  right: 1rem;
+  transform: translateY(-50%);
+  font-size: 1.1rem;
+  color: #aaa;
+  pointer-events: none; 
+}
+
+.eye-icon img{
+    width: 20px;
+    height: 20px;
+}
+
+button {
+  padding: 0.75rem 1rem;
+  border: none;
+  border-radius: 30px;
+  background-color: #444;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #666;
+}
+
+span,  {
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+p{
+    text-align : center;
+    padding : 5px;
+    color : #696969;
+    font-size: 15px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+.account-options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.7rem;
+  margin-bottom: 2rem;
+}
+.account-options span{
+    color: #696969
+}
+.account-options a + a{
+    margin-left: 90px;
+}
+
+.accountregister-options {
+  display: flex;
+  justify-content: justify;
+  align-items: left;
+  gap: 5px;
+  font-size: 0.7rem;
+  margin-bottom: 2rem;
+}
+.accountregister-options span{
+    color: #696969
+}
+
+.google-button {
+width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: transparent;
+  color: #fff;
+  padding: 0.75rem 1rem;
+  border: 1px solid #696969;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: bold;
+}
+
+.google-button:hover {
+  background-color: #ddd;
+}
+
+.google-button img {
+  width: 20px;
+  height: 20px;
+}
